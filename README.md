@@ -157,9 +157,9 @@ SPI2_CS: PD0
 
 恢复出厂值
 
-官方提供firmware [BLEFOTA_BL_1.0.0.bin](04_firmware\BLEFOTA_BL_1.0.0.bin) 这个没有APP还需要用apk下载 [使用说明stsw-mksbox1-bl](04_firmware\stsw-mksbox1-bl.pdf) 
+官方提供firmware   (04_firmware\BLEFOTA_BL_1.0.0.bin) 这个没有APP还需要用apk下载 (04_firmware\stsw-mksbox1-bl.pdf)
 
-dump出来的firmware [FACTORY_RESET.bin](04_firmware\FACTORY_RESET.bin) 这个集成了APP
+dump出来的firmware (04_firmware\FACTORY_RESET.bin) 这个集成了APP
 
 
 
