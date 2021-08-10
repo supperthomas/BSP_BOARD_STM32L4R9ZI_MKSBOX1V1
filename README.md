@@ -43,8 +43,41 @@
 ### Push buttons
 
 - BUTTON = USER (PG1)
-- BUTTON = BOOT (used to let the SensorTile.box enter DFU mode. 
-- BUTTON = PWR (used to Power on/off the board when battery is connected)
+- BUTTON = BOOT (used to let the SensorTile.box enter DFU mode.  (PH3) 
+- BUTTON = PWR (used to Power on/off the board when battery is connected)(PG2)
+
+### UART
+
+|       | TX   | RX   | comment |
+| ----- | ---- | ---- | ------- |
+| UART1 | PA9  | PA10 | ST-LINK |
+| UART2 | PD5  | PD6  | BLE     |
+|       |      |      |         |
+
+
+
+### SD CARD
+
+
+
+|                  |      |      |
+| ---------------- | ---- | ---- |
+| SDMMC1_CMD       | PD2  |      |
+| SDMMC1_CK        | PC12 |      |
+| SDMMC1_CLK_F     | PB8  |      |
+| SDMMC1_DAT123DIR | PC7  |      |
+| SDMMC1_DAT0DIR   | PC6  |      |
+| SDMMC1_CMDDIR    | PB9  |      |
+| SD_SEL           | PE5  |      |
+| SD_EN            | PE4  |      |
+| SDMMC1_D0        | PC8  |      |
+| SDMMC1_D1        | PC9  |      |
+| SDMMC1_D2        | PC10 |      |
+| SDMMC1_D3        | PC11 |      |
+| SD_DETECT        | PB12 |      |
+|                  |      |      |
+
+
 
 ### SPI BUS
 
@@ -95,6 +128,28 @@ SPI2_CS: PD0
 | STTS751    | TEMPERATURE   | I2C3 |      | EVENT_STT(PG6) INT_STT(PE1)    |
 | LPS22HH    | PRESSURE      | I2C1 |      | INT_PRESS(PD15)                |
 |            |               |      |      |                                |
+
+
+
+### misc
+
+|          |      |        |
+| -------- | ---- | ------ |
+| M1P      | PA3  | INPUT  |
+| DAC_OUT1 | PA4  | OUTPUT |
+| MREF     | PB0  | INPUT  |
+
+
+
+### battery
+
+|          |      |        |
+| -------- | ---- | ------ |
+| AN_VBATT | PC4  | INPUT  |
+| SW_SEL   | PG4  | OUTPUT |
+| CHG_LED2 | PG10 | OUTPUT |
+| CHG_LED  | PG3  | INPUT  |
+|          |      |        |
 
 
 
